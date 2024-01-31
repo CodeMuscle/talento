@@ -6,7 +6,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: {
     default: "Flow Jobs",
     template: "%s | Flow Jobs",
@@ -29,3 +29,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+export { metadata };
